@@ -5,7 +5,7 @@
 import * as admin from "firebase-admin";
 import {IDatabase} from "../../domain/repositories/database";
 import {Firestore} from "firebase-admin/firestore";
-const serviceAccount = require("./teste-esqueleton-backend-firebase-adminsdk-f1lva-f845fc0e93.json");
+const serviceAccount = require("./key.json");
 /**
  */
 export class Database implements IDatabase {
